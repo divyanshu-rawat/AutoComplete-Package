@@ -3,6 +3,8 @@ A autocomplete component for react-application.
 
 React.js AutoComplete Component! (WIP!)
 
+DEMO - http://divyanshurawat.me/AutoComplete-Package/
+
 Accessible, extensible, Autocomplete for React.js.
 
 
@@ -77,17 +79,17 @@ export default App;
 ## API
 Props
 
-> suggestions: Array
+``` suggestions: Array ```
 The items to display in the dropdown menu.
 
-> SetValue: Function
 
-Default value: function() {}
+SetValue: ```Function```
 
-Arguments: value: String, item: Any
+Default value: ```function() {}```
+
+Arguments: ```value: String, item: Any```
 
 Invoked when the user selects an item from the dropdown menu.
-
 
 You can run in a local development server using `npm start`.
 
