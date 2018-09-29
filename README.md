@@ -26,7 +26,9 @@ To Install Use [NPM](https://npmjs.org/)
 
 ## Examples
 
-Component can be modified by adding font-awesome and bootstrap to perform mentioned gif.
+* Component can be modified by adding font-awesome and bootstrap to perform mentioned gif.
+
+
 ![Alt Text](https://github.com/divyanshu-rawat/AutoComplete-Package/blob/master/examples/screenshot/dropdown.gif)
 
 Here is a simple example of autocomplete being used in an app with some custom styles and focusable input elements within the autocomplet context.
