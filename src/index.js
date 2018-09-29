@@ -1,16 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import PropTypes  from "prop-types";
+import './style.css';
 
 class AutoComplete extends React.Component{
 
-	static propTypes ={
-		suggestions : PropTypes.instanceOf(Array)
-	};
+	// static propTypes = {
+	// 	suggestions : PropTypes.instanceOf(Array)
+	// };
 
-	static defaultProps = {
-		suggestions: []
-	};
+	// static defaultProps = {
+	// 	suggestions: []
+	// };
 
 	constructor(props){
 		super(props)
@@ -176,17 +177,11 @@ class AutoComplete extends React.Component{
     
 	 return(
 		 <div>
-			<div>
-			  <label htmlFor="">AutoComplete : </label>
-			  <div>
-			    <div>
-			      <input type="text" onChange = {onChange} value = {userInput} onFocus= {dropdown} onKeyDown={(e) => {OnKeyDown(e)}}/>
-			    </div>
-			  </div>
-			</div>
-			<div>
+		 	 <div>
+				<input type="text" onChange = {onChange} value = {userInput} onFocus= {dropdown} onKeyDown={(e) => {OnKeyDown(e)}}/>
+	
 				 {suggestionsListComponent}
-			</div>
+			 </div>
 		 </div>
 		)
 	}

@@ -1,10 +1,10 @@
 
 import React from 'react';
 import { render} from 'react-dom';
-import AutoComplete from '../../src';
+import MyComponent from '../../src';
+
 
 const App = () => (
-    <AutoComplete suggestions={['Divyanshu','Alex','David','Fred','Julia','Mark','Fabian','Carlos','George','Tom','Nick']} />
+    <MyComponent suggestions = {['alex','bob','divyanshu','mark','fred','tom','niel','patrick','tony']}/>
 );
-
 render(<App />, document.getElementById("root"));
