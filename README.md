@@ -19,7 +19,7 @@ Accessible, extensible, Autocomplete for React.js.
 
 * [Installation](#installation)
 * [Examples](#examples)
-* [API]
+* [API](#api)
 
 ## Installation
 To Install Use [NPM](https://npmjs.org/)
@@ -77,11 +77,12 @@ export default App;
 
 
 ## API
-Props
+Passed Properties.
 
 ``` suggestions: Array ```
 The items to display in the dropdown menu.
 
+##
 
 SetValue: ```Function```
 
