@@ -1,0 +1,53 @@
+.App {
+  text-align: center;
+}
+
+.cursor{
+	cursor: pointer
+}
+
+
+body {
+  font-family: sans-serif;
+}
+
+input {
+  border: 1px solid #999;
+  padding: 0.5rem;
+  width: 282px;
+}
+
+.no-suggestions {
+  color: #999;
+  padding: 0.5rem;
+}
+
+.suggestions {
+  border-top-width: 0;
+  list-style: none;
+  margin-top: 0;
+  max-height: 143px;
+  overflow-y: auto;
+  padding-left: 0;
+  width: 300px
+}
+
+.suggestions li {
+  padding: 0.5rem;
+}
+
+.marginTop{
+  margin-top: 2%
+}
+
+.suggestion-active,
+.suggestions li:hover {
+  background-color: oldlace;
+
+  cursor: pointer;
+  font-weight: 700;
+}
+
+.suggestions li:not(:last-of-type) {
+  border-bottom: 1px solid #999;
+}
