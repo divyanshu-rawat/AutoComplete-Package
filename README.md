@@ -3,8 +3,9 @@ A autocomplete component for react-application.
 
 React.js AutoComplete Component! (WIP!)
 
-
 Accessible, extensible, Autocomplete for React.js.
+
+
 
 ```js
 
@@ -16,17 +17,16 @@ Accessible, extensible, Autocomplete for React.js.
 
 * [Installation](#installation)
 * [Examples](#examples)
+* [API]
 
 ## Installation
-To install, you can use [npm](https://npmjs.org/) or [yarn](https://yarnpkg.com):
+To Install Use [NPM](https://npmjs.org/)
 
-
-    $ npm i react-app-autocomplete
-
-
-Or Prefer cloning from here as npm version as of now lack's CSS
+    $ npm i autocomplete-dropdown
 
 ## Examples
+
+![Alt Text](https://github.com/divyanshu-rawat/AutoComplete/blob/master/Example/dropdown.gif)
 
 Here is a simple example of autocomplete being used in an app with some custom styles and focusable input elements within the autocomplet context.
 
@@ -74,5 +74,20 @@ export default App;
 ```
 
 
-You can run in a local development server using `npm start` or `yarn run start`.
+## API
+Props
+
+> suggestions: Array
+The items to display in the dropdown menu.
+
+> SetValue: Function
+
+Default value: function() {}
+
+Arguments: value: String, item: Any
+
+Invoked when the user selects an item from the dropdown menu.
+
+
+You can run in a local development server using `npm start`.
 
