@@ -1,10 +1,13 @@
 # AutoComplete-Package (WIP!)
 A autocomplete component for react-application, React.js AutoComplete Component! (WIP!)
 
+[![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://forthebadge.com)
+[![forthebadge](https://forthebadge.com/images/badges/check-it-out.svg)](https://forthebadge.com)
+[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
+
 DEMO - http://divyanshurawat.me/AutoComplete-Package/
 
 Accessible, extensible, Autocomplete for React.js.
-
 
 
 ```js
